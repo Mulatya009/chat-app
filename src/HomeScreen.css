@@ -1,0 +1,45 @@
+.homescreen {
+  background-color: #f8f8f8;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  flex: 0.65 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.homescreen__container {
+  padding: 100px;
+  text-align: center;
+}
+
+.homescreen__text > img {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
+  margin-bottom: 38px;
+  border-radius: 50%;
+}
+
+.homescreen__text > h2 {
+  color: #525252;
+  margin-bottom: 24px;
+}
+
+.homescreen__text > p {
+  color: rgba(82, 82, 82, 0.5);
+}
+
+.homescreen__container > button {
+  margin-top: 20px;
+  background-color: #33ccfe !important;
+  color: white;
+}
+
+.homescreen__container > button:hover {
+  background-color: white !important;
+  color: rgba(82, 82, 82, 0.5);
+  transition: 2s ease;
+  border: 1px solid lightgray;
+}
